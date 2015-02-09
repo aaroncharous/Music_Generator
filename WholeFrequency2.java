@@ -4,6 +4,7 @@
 import java.util.Scanner;
 import java.util.Random;
 import java.util.ArrayList;
+//nyess
 
 public class WholeFrequency2
 {
@@ -16,7 +17,6 @@ public class WholeFrequency2
     private static String note;
     private static double previous_cp;
     public static final int MAX_TRIES = 150; //if a note is impossible, the while statement will go an infinite number of times.  this is the max number of tries before the frequencies are rest.
-    private static boolean donezo = false;
     
     public static double wholefreq ()
     {
