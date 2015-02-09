@@ -25,7 +25,7 @@ public class Frequency
             {
                 if (Time.Value(x).equals("Whole Note"))
                 {
-                    tone.add(WholeFrequency2.wholefreq());
+                    tone.add(WholeFrequency.wholefreq());
                 }
                 
                 else 
