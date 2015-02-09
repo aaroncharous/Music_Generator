@@ -2,20 +2,10 @@
 //December 25, 2014
 
 import java.util.Scanner;
-import java.util.Random;
 import java.util.ArrayList;
-//nyess
 
-public class WholeFrequency
+public class WholeFrequency extends FrequencyParent
 {
-    private static Random generator = new Random();
-    static double ratio = 0;
-    static double freq;
-    public static double[] pcratio = {1,1.498307077,2}; //perfect consonance ratios
-    public static double[] cratio = {1,1.25992105,1.498307077,1.681792831,2}; // consonance ratios
-    public static double[] iratio = {1.25992105,1.681792831}; // imperfect consonance ratios
-    private static String note;
-    private static double previous_cp;
     
     public static double wholefreq ()
     {
